@@ -1,0 +1,19 @@
+{
+  "name": "vtt",
+  "version": "0.0.1",
+  "description": "Simple VTT for LoTFP",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "test"
+  },
+  "keywords": [
+    "VTT",
+    "LotFP"
+  ],
+  "author": "Artem Litvinov",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^12.0.1"
+  }
+}
