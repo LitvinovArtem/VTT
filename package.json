@@ -2,9 +2,10 @@
   "name": "vtt",
   "version": "0.0.1",
   "description": "Simple VTT for LoTFP",
-  "main": "main.js",
+  "main": "build/main.js",
   "scripts": {
-    "start": "electron .",
+    "start": "npm run compile && electron .",
+    "compile": "tsc && copyfiles -f src/index.html build",
     "test": "test"
   },
   "keywords": [
@@ -14,6 +15,7 @@
   "author": "Artem Litvinov",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^12.0.1"
+    "electron": "^12.0.1",
+    "typescript": "^4.2.4"
   }
 }

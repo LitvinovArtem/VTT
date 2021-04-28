@@ -102,3 +102,7 @@ dist
 
 # TernJS port file
 .tern-port
+build/index.html
+build/main.js
+build/src/window.js
+build/window.js
